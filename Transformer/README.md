@@ -45,7 +45,7 @@ self attention은 한 시퀀스 내의 토큰끼리의 의미적 관계와 중�
   이런 상황에서 수가 차원에 비례해서 커지는 것을 막기위해서 차원의 제곱근으로 나눕니다.</br></br>
   개인적으로는 왜 d로 안나누고 $d^{1/2}$으로 나누는지 의문이어서 확률론 관점에서 증명을 해봤습니다.</br>
   증명은 아래 그림으로 정리하겠습니다.
-  <img src="./presentation/why_root_proof.PNG" width="800px">
+  <img src=".././presentation/why_root_proof.PNG" width="800px">
   </br>
 - 정규화 : softmax() 함수에 대입  
   중요도를 나타내는 벡터의 수들을 확률로 표현하기 위해서 softmax() 함수에 넣어서 정규화해줍니다.  </br></br>
